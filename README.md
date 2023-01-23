@@ -20,7 +20,7 @@ Anaconda - Python 3.7
 ## PROGRAM:
 
 ### OUTPUT:
-![OUTPUT](./images/vis.png)
+
 
 
 ## RESULT:
