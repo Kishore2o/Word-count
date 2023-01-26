@@ -6,20 +6,36 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Decleare number of words is 0
 
 ### Step 2: 
+open it with txt file
  
 ### Step 3: 
+Give range for i
 
-### Step 4:  
+### Step 4:
+Then nxt split the words
 
 ### Step 5: 
+count the number of words
 
 ### Step 6: 
+Giving print statement for getting output
 
 ## PROGRAM:
-
+```
+num_words =0
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/118679883/214756207-a54fc2d9-ecef-4319-813e-bd415e2de943.png)
+
+![image](https://user-images.githubusercontent.com/118679883/214756176-d3c73790-6b4e-4408-bd2a-a6c9af5ecdd5.png)
 
 
 
